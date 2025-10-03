@@ -1,32 +1,32 @@
 
-    const open = document.getElementById('open');
-const close = document.getElementById('close');
-const nav_links = document.getElementById('nav_links');
-const nav = document.getElementById('nav');
+//     const open = document.getElementById('open');
+// const close = document.getElementById('close');
+// const nav_links = document.getElementById('nav_links');
+// const nav = document.getElementById('nav');
 
 
-// toogle for mobile screen and desktop screen
-open.addEventListener('click', () => {
-if (window.innerWidth <= 1208) {
-close.style.display = 'block';
-open.style.display = 'none';
-nav_links.style.display = 'block';
-nav_links.style.display = 'flex ';
+// // toogle for mobile screen and desktop screen
+// open.addEventListener('click', () => {
+// if (window.innerWidth <= 1208) {
+// close.style.display = 'block';
+// open.style.display = 'none';
+// nav_links.style.display = 'block';
+// nav_links.style.display = 'flex ';
 
-} else {
-close.style.display = 'none';
-open.style.display = 'block';
-nav_links.style.display = 'none';
-}
+// } else {
+// close.style.display = 'none';
+// open.style.display = 'block';
+// nav_links.style.display = 'none';
+// }
 
-if ((window.innerWidth>= 1208) || (window.includes(close))){ {
-    close.style.display = 'none';
-    open.style.display = 'block';
-    nav_links.style.display = 'flex';
+// if ((window.innerWidth>= 1208) || (window.includes(close))){ {
+//     close.style.display = 'none';
+//     open.style.display = 'block';
+//     nav_links.style.display = 'flex';
   
-}
-}
-})
+// }
+// }
+// })
 
 
 
