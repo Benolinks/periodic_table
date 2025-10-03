@@ -275,6 +275,7 @@ ul li:hover{
   .element{
     font-size: 38px;
     padding: 12px 19px;
+    gap: 20px;
   }
 
   select {
