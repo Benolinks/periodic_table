@@ -201,14 +201,16 @@ ul li:hover{
       padding: 10px;
       max-width: 600px;
       margin-inline: auto;
+      
+
     }
     .element {
-      padding: 12px;
+      padding: 12px 20px;
       background: #4cafef;
       color: white;
       border-radius: 6px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 24px;
       font-weight: bold;
       transition: transform 0.2s;
     }
@@ -260,5 +262,20 @@ ul li:hover{
         .second_items{
             margin-top: 2rem;
         }
+
+        select option {
+    /* color: white; */
+    background-color: lightyellow; 
+    color: black;
+    font-size: 25px;   
+  }
+
+  select {
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+     
+
+    }
     }
   
