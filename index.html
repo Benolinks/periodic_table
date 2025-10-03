@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Periodic Table</title>
+
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <!--// nav bar -->
+  <nav class="nav">
+    <div class="ben">BenTech</div>
+    <ul class="nav-links" id="nav_links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Signin</a></li>
+    </ul>
+    <div class="icon">
+      <div class="open" id="open"><i class="uil uil-bars"></i></div>
+      <div class="close" id="close"><i class="uil uil-multiply"></i></div>
+    </div>
+  </nav>
+
+  <!-- // main content -->
+  <div class="main_item">
+    <div class="first_item">
+      <img src="./scientist.jpg" alt="" class="img_scientist">
+    </div>
+    <div class="second_items">
+      <h1 style="color: white; text-align: center;">First 20 Periodic Table Elements</h1>
+      <div class="table" id="table"></div>
+      <div id="info">Click an element to hear and see details</div>
+
+      <br><br>
+  <div style="justify-content: center; display: flex; flex-direction: column; align-items: center; padding: 1rem 3px 19rem 1px;">
+    <label style="color: white; text-align: center;">Language:
+      <select id="lang">
+        <option value="en-US">English (US)</option>
+        <option value="en-GB" selected>English (UK)</option>
+        <option value="fr-FR">French</option>
+        <option value="es-ES">Spanish</option>
+        <option value="en-NG">English (Nigeria)</option>
+      </select>
+    </label>
+    <br><br>
+
+    <label style="color: white; text-align: center;">Voice:
+      <select id="voiceSelect"></select>
+    </label>
+  </div>
+
+    </div>
+  </div>
+  
+
+  <script src="main.js"></script>
+</body>
+
+</html>
