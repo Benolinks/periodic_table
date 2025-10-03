@@ -276,6 +276,7 @@ ul li:hover{
     font-size: 38px;
     padding: 12px 19px;
     gap: 20px;
+    margin-left: 10px;
   }
 
   select {
